@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>950</width>
-    <height>600</height>
+    <width>750</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -87,13 +87,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>300</width>
+           <width>170</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>300</width>
+           <width>250</width>
            <height>16777215</height>
           </size>
          </property>
@@ -113,6 +113,12 @@
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
+         <property name="minimumSize">
+          <size>
+           <width>400</width>
+           <height>400</height>
+          </size>
+         </property>
          <property name="autoScroll">
           <bool>true</bool>
          </property>
@@ -129,11 +135,16 @@
           <number>0</number>
          </property>
          <property name="columnCount">
-          <number>6</number>
+          <number>7</number>
          </property>
          <column>
           <property name="text">
            <string>查询内容</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>名称检查</string>
           </property>
          </column>
          <column>
@@ -168,9 +179,16 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="text">
+          <string>数据库</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QLabel" name="label_2">
          <property name="text">
-          <string>数据库更新状态：2020-02-10</string>
+          <string>2020-02-10</string>
          </property>
         </widget>
        </item>
@@ -191,6 +209,19 @@
         <widget class="QPushButton" name="pushButton_2">
          <property name="text">
           <string>查询</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="maximumSize">
+          <size>
+           <width>23</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
